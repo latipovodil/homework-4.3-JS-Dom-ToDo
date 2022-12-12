@@ -1,0 +1,37 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  padding: 20px;
+  background-color: rgba(0, 255, 255, 0.253);
+  border: none;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+input:hover{
+  box-shadow: 0 0 10px 0 teal;
+}
+
+button {
+  background-color: rgb(0, 128, 128);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+button:hover{
+  box-shadow: 0 0 10px 0  teal;
+}
